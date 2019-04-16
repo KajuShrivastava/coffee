@@ -1,0 +1,77 @@
+<html>
+<head>
+<style>
+.ab
+{
+list-style:none;
+font-weight:bold;
+margin-bottom:10px;
+float:left;
+width:100%;
+}
+.ab li
+{
+float:left;
+margin-right:10px;
+position:relative;
+}
+.ab a
+{
+display:block;
+padding:5px;
+color:#fff;
+background-color:#333;
+text-decoration:none;
+}
+.ab a:hover
+{
+color:#fff;
+background-color:#6boc36;
+text-decoration:underline;
+}
+.ab ul
+{
+list-style:none;
+position:absolute;
+left:-9999px;
+}
+.ab li:hover ul
+{
+left:-30;
+}
+.ab ul a
+{
+white-space:nowrap;
+}
+.ab ul li
+{
+padding-top:1px;
+float:none;
+}
+.ab li:hover a
+{
+background-color:#6boc36;
+text-decoration:underline;
+}
+.ab li:hover ul a
+{
+text-decoration:none;
+}
+.ab li:ul li a:hover
+{
+background-color:#333;
+}
+</style>
+<body>
+<ul class=ab>
+<li><a href="#">Home</a></li>
+<li>
+<a href="#">Products</a>
+	<ul>
+	<li><a href="#">About</a></li>
+	<li><a href="#">Login</a></li>
+	</ul>
+</li>
+</ul>
+</body>
+</html>
